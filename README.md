@@ -1,2 +1,2 @@
 # zuriproject
-The home page for this project is the index.php
+The home page for this project is the login.php
