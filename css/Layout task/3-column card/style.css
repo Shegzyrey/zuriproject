@@ -1,0 +1,97 @@
+/* GLOBAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    margin: 0px 50px 50px;
+    font-size: 15px;
+}
+
+/* Each item in the grid contains numbers */
+.car {
+    padding: 2rem;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #1c57b5;
+
+    
+}
+
+
+.container {
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+    }
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+h3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+}
+
+.btn {
+    border: 2px hsl(0, 0%, 95%) ;
+    /*border-color: hsl(0, 0%, 95%);*/
+    border-radius: 16px;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    margin: 4px 2px;
+    text-align: center;
+    border: 5px solid;
+    border-width: medium;
+    cursor: pointer;
+}
+.sedans {
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+ }
+ .sedans:hover {
+    background-color:hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+  }
+
+ 
+.suvs {
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+  }
+  .suvs:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+  }
+
+  
+.luxury {
+    border-color: hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%);
+  }
+  .luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+  }
