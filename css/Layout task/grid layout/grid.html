@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid Layout</title>
+    <style>
+        .wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: rgb(5, 5, 47);
+    height: auto;
+    width: auto;
+    }
+
+    .boxa {
+        margin-top: 1em;
+
+        margin-left: 2em;
+
+        grid-column-start: 1;
+
+        grid-column-end: 4;
+
+        grid-row-start: 1;
+
+        grid-row-end: 3;
+
+        background-color: rgb(233, 87, 19);
+    }
+
+    .boxb {
+
+        margin-bottom: 2em;
+
+        grid-column-start: 1;
+
+        grid-column-end: 3;
+
+        margin-left: 2em;
+
+        grid-row-start: 3;
+
+        grid-row-end: 6;
+
+        background-color: rgb(27, 236, 55);
+    }
+
+    .boxc {
+        margin-top: 1em;
+
+        margin-right: 3em;
+
+        grid-column-start: 4;
+
+        grid-column-end: 6;
+
+        grid-row-start: 1;
+        
+        grid-row-end: 3;
+
+        background-color :rgb(230, 160, 55);
+    }
+    .boxd {
+
+        margin-right: 3em;
+
+        grid-column-start: 3;
+
+        grid-column-end: 6;
+
+        grid-row-start: 3;
+
+        background-color: rgb(66, 176, 244);
+    }
+
+    .boxe{
+
+        margin-right: 3em;
+
+        margin-bottom: 2em;
+
+        grid-column-start: 3;
+
+        grid-column-end: 6;
+
+        grid-row-start: 4;
+
+        grid-row-end: 6;
+
+        background-color:rgb(66, 176, 244);
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="boxa"></div>
+        <div class="boxb"></div>
+        <div class="boxc"></div>
+        <div class="boxd"></div>
+        <div class="boxe"></div>
+        </div>
+      </div>
+</body>
