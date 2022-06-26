@@ -1,0 +1,130 @@
+body {
+    background-image: url("bg-intro-mobile.png");
+    background-color: #ec75dc;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+  }
+
+  @media (min-width: 1024px) {
+    body {
+      background-image: url("bg-intro-desktop.png");
+    }
+  }
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    background-size: 100% auto;
+    z-index: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: center;*/
+  }
+
+  .child1 {
+    display: flex;
+    flex-grow: 2;
+    width: 50%;
+    padding: 0 20px;
+    color: #fff;
+    z-index: 1;
+  }
+  .word {
+    display:flex;
+    flex-direction: column;
+  }
+  .child2 {
+    flex-grow: 1;
+    width: 50%;
+    padding: 0 20px;
+    z-index: 2;
+    align-content: center;
+    justify-content: center;
+  }
+  .register-head {
+    margin-bottom: 24px;
+    padding: 10px 5px;
+    background-color: #480bb0;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.13);
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    width: 75%;
+    
+  }
+  .register-form {
+    position: relative;
+    background-color: #fff;
+    z-index: 3;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.13);
+    width: 75%;
+
+  }
+  .register-input {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-left: 12px;
+    padding: 12px;
+    width: 95%;
+    justify-content: cenetr;
+    text-align: left;
+    position: relative;
+  }
+  input:invalid {
+    border: #c51244;
+  }
+
+  p {
+    text-align: center;
+  }
+  a:link { text-decoration: none; color: #ec75dc; }
+  a:visited { text-decoration: none; color: #ec75dc; }
+  a:hover { text-decoration: none; color: #ec75dc; }
+  a:active { text-decoration: none; color: #ec75dc; }
+
+  .error .register-input {
+    background: #c51244 !important;
+    padding: 10px !important;
+    border-radius: 0 !important;
+    position: relative; 
+    display: inline-block !important;
+    box-shadow: 1px 1px 1px #aaaaaa;
+    margin-top: 10px;
+  }
+
+  
+
+    .btn {
+        border: 2px hsl(0, 0%, 95%) ;
+        /*border-color: hsl(0, 0%, 95%);*/
+        border-radius: 6px;
+        padding: 12px;
+        background-color: hsl(145, 85%, 51%);
+        font-size: 15px;
+        margin-top: 5px;
+        margin-left: 12px;
+        text-align: center;
+        border: 1px;
+        cursor: pointer;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 95%;
+    }
+    .btn:hover {
+      box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.14);
+  }
+
